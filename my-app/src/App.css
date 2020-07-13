@@ -1,0 +1,134 @@
+:root {
+  /* // conversation */
+  --spotim-conversation-background-color: transparent;
+  --spotim-conversation-max-width: 700px;
+
+  /* // page */
+  --spotim-page-background-color: transparent;
+
+  /* // say control */
+  --spotim-say-control-action-color: #a8abae;
+
+  /* // product */
+  --spotim-font-family-product-header: Open Sans, Open Sans Hebrew, Arial;
+  --spotim-font-family-product-subheader: Open Sans, Open Sans Hebrew, Arial;
+  --spotim-font-size-product-header: 27px;
+  --spotim-font-size-product-subheader: 16px;
+  --spotim-font-weight-product-header: bold;
+  --spotim-font-weight-product-subheader: 400;
+  --spotim-line-height-product-header: 1.5;
+  --spotim-line-height-product-subheader: 30px;
+  --spotim-text-color-product-header: #373e44;
+  --spotim-text-color-product-subheader: #373e44;
+  --spotim-text-transform-product-header: none;
+  --spotim-text-transform-product-subheader: none;
+
+  /* // message */
+  --spotim-message-text-color: #222222;
+  --spotim-extract-background-color: #ffffff;
+  --spotim-message-separator-color: transparent;
+  --spotim-font-size-message-actions: 15px;
+  --spotim-message-font-size-x-small: 12px;
+  --spotim-message-font-size-small: 15px;
+  --spotim-message-font-size-regular: 18px;
+  --spotim-message-font-size-large: 21px;
+  --spotim-message-font-size-x-large: 24px;
+  --spotim-message-line-height: 1.67;
+  --spotim-message-letter-spacing: -0.01111em;
+
+  /* // general */
+  --spotim-brand-color: #35b840;
+  --spotim-brand-text-color: white;
+  --spotim-border-color: #e3e3e3;
+  --spotim-strong-border-color: #a8abae;
+  --spotim-border-color-muted: #00000014;
+  --spotim-border-radius-small: 4px;
+  --spotim-border-radius-medium: 6px;
+  --spotim-box-shadow-medium: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+  --spotim-overlay-background-color: transparent;
+
+  /* // general - typography */
+  --spotim-text-color-default: black;
+  --spotim-text-color-muted: #373e44;
+  --spotim-text-color-x-muted: #7b7f83;
+  --spotim-text-color-xx-muted: #a8abae;
+  --spotim-font-family: Open Sans, Open Sans Hebrew, Arial;
+  --spotim-font-size-xx-small: 9px;
+  --spotim-font-size-x-small: 11px;
+  --spotim-font-size-small: 13px;
+  --spotim-font-size-medium: 15px;
+  --spotim-font-size-large: 18px;
+  --spotim-font-size-x-large: 24px;
+  --spotim-font-size-xx-large: 36px;
+  --spotim-font-weight-bold: bold;
+  --spotim-font-weight-semibold: 600;
+  --spotim-font-weight-normal: 400;
+  --spotim-line-height-medium: 1.5;
+
+  /* // progress bar */
+  --spotim-progress-bar-background-color: #e5e6e6;
+
+  /* // overlay */
+  --spotim-overlay-background-color: #ffffff;
+  --spotim-overlay-border-color: #e3e3e3;
+
+  /* // content loaders */
+  --spotim-content-loader-primary-color: #f3f3f3;
+  --spotim-content-loaders-secondary-color: #dddddd;
+
+  /* // input */
+  --spotim-input-background-color: transparent;
+  --spotim-input-separator-color: #d4d6d7;
+
+  /* // notifications empty state list item */
+  --spotim-list-item-background: #f7f7f7;
+  --spotim-list-item-foreground: #e5e6e6;
+
+  /* // stars rating */
+  --spotim-star-color: #fabb09;
+  --spotim-star-color-empty: #e3e3e3;
+
+  /* // colors */
+  --spotim-success-color: #35b840;
+  --spotim-danger-color: #db3737;
+  --spotim-warning-color: #fabb09;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
