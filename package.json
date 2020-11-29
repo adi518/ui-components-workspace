@@ -4,7 +4,7 @@
   "workspaces": {
     "packages": [
       "my-app",
-      "ui-components"
+      "ui-components-tsdx"
     ]
   }
 }

@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@spotim/ui-components": "1.36.0",
+    "ui-components-tsdx": "0.1.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -22,8 +22,7 @@
   "scripts": {
     "start": "nodemon --exec cross-env SKIP_PREFLIGHT_CHECK=true --BROWSER=none react-scripts start",
     "build": "cross-env SKIP_PREFLIGHT_CHECK=true react-scripts build",
-    "postbuild": "yarn analyze",
-    "analyze": "source-map-explorer 'build/static/js/*.js' --only-mapped",
+    "build:analyze": "yarn build && source-map-explorer 'build/static/js/*.js' --gzip",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

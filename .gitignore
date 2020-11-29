@@ -116,3 +116,4 @@ dist
 .pnp.*
 
 ui-components
+ui-components-tsdx
